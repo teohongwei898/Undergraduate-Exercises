@@ -1,10 +1,14 @@
-/* Calculate and display the difference of two input values /*
-include <stdio.h>
-int Main(void)
+#include <stdio.h>
+
+int main()
 {
-int X, x, sum;
-scanf("%d", & X);
-scanf("%f", & x);
-X + x = sum;
-printf("The sum of %d and %d is %d\n", X, x, sum);
+int x, y, sum;
+printf ("Enter the first number:");
+scanf("%d", &x);
+printf ("Enter the second number:");
+scanf("%d", &y);
+sum = x + y;
+printf("The sum of %d and %d is %d.\n", x, y, sum);
 return 0;
+
+}
